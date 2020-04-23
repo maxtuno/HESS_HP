@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libhess/include/hess/hess.h
+stdbool.h
+-
+
+/Users/peqnp/Documents/GitHub/HESS_HP/libhess/src/hess.c
+hess/hess.h
+-
+

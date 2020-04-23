@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/peqnp/Documents/GitHub/HESS_HP/validator/hc_check.c
+stdio.h
+-
+hclib.h
+/Users/peqnp/Documents/GitHub/HESS_HP/validator/hclib.h
+
+/Users/peqnp/Documents/GitHub/HESS_HP/validator/hclib.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+string.h
+-
+hclib.h
+/Users/peqnp/Documents/GitHub/HESS_HP/validator/hclib.h
+
+/Users/peqnp/Documents/GitHub/HESS_HP/validator/hclib.h
+stdbool.h
+-
+

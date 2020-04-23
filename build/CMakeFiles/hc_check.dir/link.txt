@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -Os -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/hc_check.dir/validator/hc_check.o CMakeFiles/hc_check.dir/validator/hclib.o  -o ../bin/hc_check   -L/Users/peqnp/Documents/GitHub/HESS_HP/libhess/lib 
